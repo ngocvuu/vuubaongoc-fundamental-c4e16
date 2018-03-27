@@ -34,7 +34,7 @@ datas = []
 for li in li_list:
     # create a dictionary
     data = {}
-    a = li.h4.a #What's "a" here?
+    a = li.h4.a
     data["title"] = a.string
     data["link"] = url + a["href"]
     datas.append(data)
